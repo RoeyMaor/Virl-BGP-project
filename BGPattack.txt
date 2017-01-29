@@ -1,0 +1,6 @@
+router bgp 6
+neighbor 192.168.0.2 remote-as 6
+neighbor 192.168.0.2 update-source 10.4.0.1
+network 1 10.1.0.1/29 1
+metric 1 5
+sendall

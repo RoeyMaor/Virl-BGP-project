@@ -1,0 +1,4 @@
+router bgp 6
+neighbor 10.4.0.1 remote-as 6
+neighbor 10.4.0.1 activate
+end
